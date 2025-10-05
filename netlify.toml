@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_FIREBASE_CONFIG = "{\"apiKey\": \"AIzaSyExiMEtybudLgHDYpgstTygzVmvW6Nwc\", \"authDomain\": \"sycoaching-1640d.firebaseapp.com\", \"projectId\": \"sycoaching-1640d\", \"storageBucket\": \"sycoaching-1640d.appspot.com\", \"messagingSenderId\": \"28478905589\", \"appId\": \"1:28478905589:web:32c2ea3e7109c923ca940c\", \"measurementId\": \"G-NLX99KCWKX\"}"
